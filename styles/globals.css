@@ -14,6 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+a {
+  padding: 0 20px;
+}
+h2 {
+  padding: 0 20px;
+  margin: 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  height: 20px;
+}
+.banner-content {
+  width: 27%;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
