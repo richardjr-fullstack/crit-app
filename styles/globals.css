@@ -138,7 +138,36 @@ ul.control-dots {
   display: none;
 }
 
+/* Investor Section */
+.investor-container {
+  padding: 3rem 8rem;
+  background-color: #d1d1d3;
+}
+.logo-allignment {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+h2.investor-title {
+  color: #000;
+  margin-bottom: 3rem;
+}
 
+
+/* Footer */
+.footer-container {
+  background-color: #392061;
+}
+.social-icon-container {
+  display: flex;
+}
+ul.footer-navigation {
+  display: flex;
+  color: #fff;
+  justify-content: flex-end;
+  align-content: flex-end;
+  flex-direction: column;
+}
 
 
 

@@ -2,6 +2,12 @@ import Head from "next/head"
 import Image from 'next/image'
 import mypic from '../asset/images/story-1.png'
 import mypic1 from '../asset/images/story-2.png'
+import logo1 from '../asset/images/logo1.png'
+import logo2 from '../asset/images/logo2.png'
+import logo3 from '../asset/images/logo3.png'
+import logo4 from '../asset/images/logo4.png'
+import logo5 from '../asset/images/logo5.png'
+import logo6 from '../asset/images/logo6.png'
 import DemoCarousel from "../components/image-carousel"
 import Layout from "../components/layout/index"
 export default function Home() {
@@ -49,6 +55,31 @@ export default function Home() {
               <p>Maecenas pellentesque consequat felis nec rhoncus. Sed tincidunt est ante, eget tempor magna efficitur ut. Quisque fermentum elementum tortor eget molestie. Maecenas cursus tortor at turpis sagittis, ac suscipit nunc venenatis. Mauris sagittis dolor nec felis sollicitudin, eget tempus tortor faucibus. Nullam convallis vitae purus et dignissim. Aenean sollicitudin consectetur aliquet. Donec neque urna, malesuada ac nulla sed, semper tempor sapien. Nam egestas accumsan porttitor. Vestibulum ac nibh turpis. Nullam dignissim risus ligula, et cursus justo tempor ac. Suspendisse mollis odio in diam maximus tristique.</p>
           </div>
         </div>
+      </div>
+
+      {/* Investor */}
+      <div className="investor-container">
+        <h2 className="investor-title">investors</h2>
+        <div className="logo-allignment">
+          <div>
+              <Image src={logo1}/>
+          </div>
+          <div>
+              <Image src={logo2}/>
+          </div>
+          <div>
+              <Image src={logo3}/>
+          </div>
+          <div>
+              <Image src={logo4}/>
+          </div>
+          <div>
+              <Image src={logo5}/>
+          </div>
+          <div>
+              <Image src={logo6}/>
+          </div>
+        </div>        
       </div>
   </main>
   </Layout>
